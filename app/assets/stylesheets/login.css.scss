@@ -1,0 +1,207 @@
+BODY {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+A {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+DIV {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+P {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+SPAN {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+TD {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+TD.content {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+TD.alert {
+	COLOR: red;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+TD.header {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 20px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+INPUT {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+TEXTAREA {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+SELECT {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+A:link {
+	COLOR: #003366;; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #003366;; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #003366;; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #003366;; TEXT-DECORATION: underline
+}
+
+a.passwordlink:link {
+	color: RGB(0, 51, 153);
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: Regular;
+	TEXT-DECORATION: none;
+}
+
+a.passwordlink:visited {
+	color: RGB(0, 51, 153);
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: Regular;
+	TEXT-DECORATION: none;
+}
+
+a.passwordlink:hover {
+	color: RGB(0, 51, 153);
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: Regular;
+	TEXT-DECORATION: underline;
+}
+
+.loginTitle {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 35px;
+	PADDING-BOTTOM: 0px;
+	COLOR: #ffffff;
+	PADDING-TOP: 2px;
+	FONT-FAMILY: Futura Bk, LuzSans-Book, Verdana, Arial, Helvetica,
+		sans-serif
+}
+
+.loginVersion {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 11px;
+	PADDING-BOTTOM: 0px;
+	COLOR: #ffffff;
+	PADDING-TOP: 2px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+.loginCopyright {
+	FONT-SIZE: 10px;
+	COLOR: #003366
+}
+
+.loginInput {
+	BORDER-RIGHT: #7f9db9 1px solid;
+	BORDER-TOP: #7f9db9 1px solid;
+	BORDER-LEFT: #7f9db9 1px solid;
+	BORDER-BOTTOM: #7f9db9 1px solid;
+	HEIGHT: 19px;
+	FONT-SIZE: 10pt;
+	COLOR: black;
+	FONT-FAMILY: arial, verdana, sans-serif
+}
+
+.logo_image{
+	LEFT: 40px; 
+	POSITION: absolute;
+	TOP: 33px;
+}
+
+.rms-sbdropdown{
+	width:200px;
+	height:20px;
+}
+
+.hpButtonSmall{
+	position: relative;
+	left: -1px;
+	top: -1px;
+	/* background color a part of the theme css */
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	cursor: pointer;
+	cursor: hand;
+	background-color: #7591AC;
+	border-style: none;
+	padding: 0px 4px;
+	height: 16px;
+}
+
+.layout-hpov-default{
+
+	div.buttonSet {
+		float: right;
+		margin-bottom: 10px;
+		padding-left: 13px;
+	}
+	div.bWrapperUp{
+		float: right;
+		direction: ltr;
+		margin-bottom: 10px;
+	}
+	div	{
+		position: relative;
+		left: -1px;
+		top: -1px;
+	}
+}
+
+.layout-hpov-default div.bWrapperUp, div.bWrapperUp div {
+    background-color: #3F658C;
+}
+
+.login_div_rms{
+	PADDING-RIGHT: 25px; 
+	PADDING-BOTTOM: 60px; 
+	PADDING-TOP: 60px; 
+	TEXT-ALIGN: right;
+}

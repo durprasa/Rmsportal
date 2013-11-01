@@ -1,0 +1,41 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  main_title: "Retail Management System"
+  welcome_title: 'Welcome!'
+  welcome_text: 'This site allows you to remotely view store performance and manage assets.'
+  title: "Retail Management System"
+  username_text: "Username:"
+  password_text: "Password:"
+  language: "Language:"
+  copyright_text: '© 2007-2013 Hewlett-Packard Development Company, L.P. All rights reserved.'
+  access_site_text: "To access this site please login:"
+  terms_of_use: "Terms of Use"
+  privacy_policy: "Privacy Policy"
+  version: "Version 3.2.1"
+  forgot_your_password: "forgot your password?"
+  home_page_welcome: "Welcome"
+  login_button: "Login >>"
+  log_out_text: "Log out"
+  successmessage: "successfully logged in"
+  invalid_login_text: "Invalid username/ password combination"
+

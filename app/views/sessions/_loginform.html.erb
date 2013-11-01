@@ -1,0 +1,58 @@
+<table border="0" width="100%" id="table1" height="193">
+  <%=form_for(:session, :url => sessions_path) do |f| %>
+  	<% if flash[:status]==FALSE %>
+    	<tr>
+    		<td nowrap width="64%" align="left" height="35" class="alert">
+      		<div id="FailMessage">
+      			<%= flash[:alert]%>
+      		</div>
+    		</td>
+    	</tr>
+  	<% end %>
+  	<tr>
+  		<td nowrap width="64%" class="content" align="left"><%= t('access_site_text')%></td>
+  		<td nowrap width="36%" height="30">&nbsp;</td>
+  	</tr>
+  	<tr>
+  		<td nowrap width="64%" height="30" class="content" align="right">&nbsp;&nbsp;&nbsp;&nbsp;
+    		<%= f.label :username, t('username_text') %> 
+    		<%= f.text_field :username , :size => "28", :class => "loginInput"%>
+  		</td>
+  		<td nowrap width="36%" height="30">&nbsp;</td>
+  	</tr>
+  	<tr>
+  		<td nowrap width="64%" height="30" class="content" align="right">&nbsp;&nbsp;&nbsp;&nbsp;
+  		<%= f.label :password, t('password_text') %> 
+  		<%= f.password_field :password, :size => "28", :class => "loginInput"%><br>
+  		<%=link_to t('forgot_your_password'),"#",class: "passwordlink"%>
+  		</td>
+  		<td nowrap width="36%" height="30">&nbsp;</td>
+  	</tr>
+    <tr>
+      <td class="content" width="64%" nowrap="" height="30" align="right">&nbsp;&nbsp;&nbsp;&nbsp;      
+        <%= t('language')%>
+        <select id="selectedvalue" class="rms-sbdropdown" onchange="javascript:return setDropDownList();">
+             <option id="sellanId" value="en">English (United States)</option>
+             <option id="german" value="de" >German(Germany)</option>
+             <option id="spanish" value="es" >Spanish(Spain)</option>                
+        </select>
+      </td>
+    </tr>
+  	<tr>
+  		<td nowrap width="64%" height="50" align="right">
+  		&nbsp;&nbsp;&nbsp;&nbsp;
+  		<div class="buttonSet">
+    		<div class="bWrapperUp">
+      		<div>
+        		<div>
+        			<%= f.submit t('login_button'), :class => "hpButtonSmall"%>
+        		</div>
+      		</div>
+    		</div>
+  		</div>
+  		<div class="clearFloats"></div>
+  		</td>
+  		<td nowrap width="36%" height="30">&nbsp;</td>
+  	</tr>
+  <% end %>
+</table>

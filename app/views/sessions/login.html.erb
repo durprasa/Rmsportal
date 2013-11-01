@@ -1,0 +1,63 @@
+<html>
+    <BODY topmargin="1" class="layout-hpov-default">
+		<TABLE id="login_table_logindirector" cellSpacing="5" cellPadding="0" width="100%" bgColor="#ffffff">
+			<TBODY>
+				<TR>
+					<TD vAlign="bottom" width="100%" bgColor="#003366">
+						<%= link_to image_tag("logo.gif", width: "55px", height: "55px", class: 'logo_image', alt: "HP RMS"), 'http://www.hp.com/' %>
+					<DIV id="login_div_rms" class="login_div_rms">
+						<SPAN class="loginTitle"><%= I18n.t('main_title')%></SPAN> <BR><BR>
+					  	<SPAN class="loginVersion" id="login_span_version"><%=t('version')%></SPAN>
+					</DIV>
+					</TD>
+					<TD>
+						<%= image_tag("rms.jpg", width: "465", height: "280", alt: "RMS",style: "DISPLAY: block")%>
+					</TD>
+				</TR>
+				<TR>
+					<TD colSpan="2">
+					<TABLE cellSpacing="0" cellPadding="10" width="100%" height="290" bgColor="#cccccc">
+						<TBODY>
+							<TR>
+								<TD width="63%" height="235">
+									<table border="0" width="92%" id="table1" height="193">
+										<tr>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<td height="35" class="header">&nbsp;&nbsp; <%= I18n.t('welcome_title')%></td>
+										</tr>
+										<tr>
+											<td height="28" class="content">&nbsp;&nbsp; <%= I18n.t('welcome_text')%></td>
+										</tr>
+										<tr>
+											<td height="24" class="content">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+										</tr>
+										<tr>
+											<td height="66">&nbsp;&nbsp;&nbsp;</td>
+										</tr>
+									</table>
+								</TD>
+								<TD width="37%" height="235">
+								<%= render 'loginform'%>
+								</TD>
+							</TR>
+							<TR>
+								<TD align="center" colspan="2">
+								<p align="right">
+									<SPAN class="loginCopyright"><%= I18n.t('copyright_text')%><br>
+									<br>
+									<%=link_to I18n.t('terms_of_use'),"http://www8.hp.com/us/en/privacy/terms-of-use.html",class: "loginCopyright"%> | <%=link_to I18n.t('privacy_policy'),"http://www8.hp.com/us/en/privacy/privacy.html",class: "loginCopyright"%>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									</SPAN>
+								</TD>
+							</TR>
+						</TBODY>
+					</TABLE>
+					</TD>
+				</TR>
+			</TBODY>
+		</TABLE>
+	</BODY>
+</html>
